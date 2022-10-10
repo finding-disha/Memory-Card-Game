@@ -20,7 +20,8 @@ function flipCard(e) {
     }
 }
 
-function matchCards(img1, img2) {
+function matchCards(img1, img2) { 
+    disableDeck = true;
     if(img1 ===  img2) {//if two cards img match
         matchedCard++; //increment matched value by 1
         // if matched value is 8 that means user has matched all the cards {8 * 2 = 16 cards} 
